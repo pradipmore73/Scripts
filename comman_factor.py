@@ -27,3 +27,11 @@ for item in range(0,len(list1)):
                         list.append(list1[item])
 
 print "Comman Factors are : ",list
+
+#HCF (Highest Comman Factor)
+gcd = list[len(list)-1]
+print "GCD : ",gcd
+
+#LCM (Lowest Comman Multiple)
+lcm = ((a*b)/gcd)
+print "LCM :", lcm
