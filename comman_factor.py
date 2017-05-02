@@ -21,8 +21,8 @@ for j in range(1,100):
 print "List 1 : ",list1
 print "List 2 : ",list2
 
-for item in range(1,len(list1)):
-        for i in range(1,len(list2)):
+for item in range(0,len(list1)):
+        for i in range(0,len(list2)):
                 if(list1[item] == list2[i]) :
                         list.append(list1[item])
 
